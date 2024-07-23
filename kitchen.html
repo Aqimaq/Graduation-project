@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LethalPC - Кухня</title>
+    <link rel="shortcut icon" href="alpha_l_circle_icon_138961(1).png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal_back none">
+        <div id="kitchen-table" class="modal_okno">
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="img/Kitchen/kitchen_burger.jpg" alt="Бургер"><div class="slide"><div class="Ingredients"><h2>Бургер</h2>Ингредиенты:<br>-Хлеб белый с кунжутом<br>-Помидоры<br>-Курица<br>-Листья салата<br>-Кетчуп\Горчица\Сырный</p></div><div class="kitchen_price">450р</div></div>
+                    <img src="img/Kitchen/kitchen_free.jpeg" alt="Картошка фри"><div class="slide"><div class="Ingredients"><h2>Картошка</h2>Ингредиенты:<br>-Картофель<br>-Растительное масло<br>-Специи</div><div class="kitchen_price">320р</div></div>
+                    <img src="img/Kitchen/kitchen_shaurma.jpeg" alt="Шаурма"><div class="slide"><div class="Ingredients"><h2>Шаурма</h2><p>Ингредиенты:<br>-Лаваш<br>-Помидоры<br>-Ветчина<br>-Листья салата<br>-Кетчуп\Горчица\Сырный<br>-Корейская морковь</p></div><div class="kitchen_price">350р</div></div>
+                    <img src="img/Kitchen/kitchen_ice_cream.jpg" alt="Мороженое"><div class="slide"><div class="Ingredients"><h2>Мороженное</h2><p>Вкусы:<br>-Клубничное<br>-Шоколадное<br>-Ванильное<br>-Фисташковое<br>-Крем-брюле</p></div><div class="kitchen_price">300р</div></div>
+                </div>
+                    <button class="prev-button" aria-label="Посмотреть предыдущий слайд"><</button>
+                    <button class="next-button" aria-label="Посмотреть следующий слайд">></button>
+            </div>
+        </div>
+    </div>
+    <section class="up" style="position: relative;">
+        <header style="position: absolute;">
+            <h1>LethalPC</h1>
+                <a href="index.html">Главная</a>
+                <a href="kitchen.html">Кухня</a>
+                <a href="photo.html">Фото и отзывы</a>
+                <a href="price.html">Прайс</a>
+                <a href="about.html">О нас</a>
+        </header>
+        <div class="header__text">В нашем клубе каждый найдет возможность утолить аппетит и любые вкусовые пристрастия, меню представлено блюдами различной направленности: бургеры, мороженое, картофель фри и пр.</div>
+        <div ><img src="img/Kitchen/kitchen.png" alt="" width="100%"></div>
+    </section>
+    <main>
+        <h1 class="pustoi" onclick="Modal()" style="cursor: pointer; text-align: center; text-decoration: underline; color: rgb(113, 220, 255);">Наши блюда</h1>
+        <section onclick="Modal()">
+            <div>
+                <div class="kitchen__cont">
+                    <img src="img/Kitchen/kitchen_free.jpeg" alt="" width="800vh" height="500vh">
+                    <img src="img/Kitchen/kitchen_burger.jpg" alt="" width="750vh" height="500vh">
+                </div>
+                <div class="kitchen__cont">
+                    <img src="img/Kitchen/kitchen_shaurma.jpeg" alt="" width="750vh" height="500vh">
+                    <img src="img/Kitchen/kitchen_ice_cream.jpg" alt="" width="800vh" height="500vh">
+                </div>
+            </div>
+
+            <h1 class="pustoi">Товары от спонсоров</h1>
+            <div class="kitchen__sponsors">
+                <div class="kitchen__cont__vertical" >
+                    <img src="img/Kitchen/sponsor/varyag.png" style="float: right;" alt="" width="750vh" height="633vh">
+                    <img src="img/Kitchen/sponsor/adrenaline.jpg" style="float: right;" alt="" width="750vh" height="440vh">
+                </div>
+                <div class="kitchen__cont__vertical">
+                    <img src="img/Kitchen/sponsor/drive.png" alt="" width="800vh" height="440vh">
+                    <img src="img/Kitchen/sponsor/monster.png" alt="" width="800vh"  height="633vh">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__left">
+            <p>С нами можно связаться по телефону:<br><span style="color: rgb(113, 220, 255);">+7(918)-578-64-64</span></p>
+        </div>
+        <div class="footer__right">
+            
+            <a class="ok" href="https://ok.ru/"><img src="img/Ellipse 10.png" alt="" width="70vh"></a> 
+        
+            <a class="vk" href="https://vk.com/"><img src="img/Ellipse 8.png" alt="" width="70vh"></a> 
+        
+            <a class="tg" href="https://web.telegram.org/"><img src="img/Ellipse 9.png" alt="" width="70vh"></a>             
+    </div>
+    </footer>
+    <script src="kitchen_script.js"></script>
+</body>
+</html>
